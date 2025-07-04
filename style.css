@@ -1,3 +1,4 @@
+/* Estilo geral da página */
 body {
     color: white;
     background: black;
@@ -5,6 +6,7 @@ body {
     font-family: "Chakra Petch", sans-serif;
 }
 
+/* Cabeçalho principal */
 header {
     border-bottom: solid 2px rgb(42, 122, 228);
     padding: 20px;
@@ -12,22 +14,29 @@ header {
     color: rgb(42, 122, 228);
 }
 
+/* Seção principal com distribuição flexível */
 section {
     background: rgb(184, 156, 213);
-    padding-bottom: 80px;
     padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: center;
+    align-items: center; /* Centraliza verticalmente (opcional, caso queira) */
+    gap: 40px; /* Espaçamento entre as divs internas */
 }
 
+/* Primeira classe aplicada em uma div */
 .chamada-texto {
     margin-right: 5%;
+    max-width: 600px; /* Limita a largura para melhor leitura */
 }
 
+/* Título principal */
 h1 {
     font-size: 40px;
 }
 
+/* Parágrafos padrão */
 p {
     font-size: 20px;
 }
